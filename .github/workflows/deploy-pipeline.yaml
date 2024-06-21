@@ -47,7 +47,7 @@ jobs:
 
   publish:
     runs-on: ubuntu-latest
-      steps:
+    steps:
         - name: Create release
           id: create_release
           uses: actions/create-release@v1
